@@ -43,6 +43,9 @@ body{
 
 .button:hover{
     cursor: pointer;
+    border: none;
+    background-color: var(--light-black);
+    color: white;
 }
 
 .quiz__question-box{
