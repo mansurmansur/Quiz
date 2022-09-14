@@ -4,15 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Quiz</title>
 </head>
 <body>
     <div class="app">
         <div class="container">
             <div class="quiz">
-                <div class="quiz__question"></div>
-                <div class="quiz__answer"></div>
-                <div class="quiz__footer"></div>
+                <div class="quiz__question-box">
+                    <h1 class="quiz__question">Andrew Jackson is featured on this US dollar bill?</h1>
+                    <p class="tracker">1 of 5</p>
+                    <div class="progress">
+                        <div class="progress__inner"></div>
+                    </div>
+                    <p class="tagline">Complete</p>
+                </div>
+                <div class="quiz__answer-box">
+                    <ul>
+                        <li>
+                            <input type="radio" name="quiz_choice" id="choice0">
+                            <label for="choice0">
+                                <i></i>
+                                $20
+                            </label>
+                        </li>
+                        <li>
+                            <input type="radio" name="quiz_choice" id="choice0">
+                            <label for="choice0">
+                                <i></i>
+                                $20
+                            </label>
+                        </li>
+                        <li>
+                            <input type="radio" name="quiz_choice" id="choice0">
+                            <label for="choice0">
+                                <i></i>
+                                $20
+                            </label>
+                        </li>
+                        <li>
+                            <input type="radio" name="quiz_choice" id="choice0">
+                            <label for="choice0">
+                                <i></i>
+                                $20
+                            </label>
+                        </li>
+                    </ul>
+                </div>
+                <div class="quiz__footer">
+                    <button class="button next">Next</button>
+                    <button class="button restart">Restart</button>
+                </div>
             </div>
         </div>
     </div>
